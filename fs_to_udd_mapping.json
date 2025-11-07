@@ -1,0 +1,112 @@
+{
+  "SECTION: 1. Purpose": [
+    "3"
+  ],
+  "SECTION: 2. Scope": [
+    "4"
+  ],
+  "SECTION: 3. Structure": [
+    "7.4"
+  ],
+  "SECTION: 3.1. Functional Requirement": [
+    "7.4",
+    "7.5"
+  ],
+  "SECTION: 3.2. Technical Architecture": [
+    "7.4",
+    "7.5"
+  ],
+  "SECTION: 4. Table": [
+    "7"
+  ],
+  "SECTION: 4.1. Functional Requirement": [
+    "7"
+  ],
+  "SECTION: 4.2. Data Source": [
+    "7.1",
+    "7.2"
+  ],
+  "SECTION: 4.3. Technical Architecture": [
+    "7.3",
+    "7.5"
+  ],
+  "SECTION: 5. Value Help": [
+    "11.1"
+  ],
+  "SECTION: 5.1. Functional Requirements": [
+    "11.1"
+  ],
+  "SECTION: 5.2. Data Source": [
+    "11.1"
+  ],
+  "SECTION: 6. CDS": [
+    "11.2",
+    "11.3"
+  ],
+  "SECTION: 6.1. Functional Requirements": [
+    "11.2"
+  ],
+  "SECTION: 6.2. Data Source": [
+    "11.3"
+  ],
+  "SECTION: 7. Function Module": [
+    "8"
+  ],
+  "SECTION: 7.1. Functional Requirement": [
+    "8"
+  ],
+  "SECTION: 7.2. Data Source": [
+    "8.2",
+    "8.3"
+  ],
+  "SECTION: 8. Global Class": [
+    "6",
+    "7",
+    "8.4",
+    "8.5"
+  ],
+  "SECTION: 8.1. Overview": [
+    "6"
+  ],
+  "SECTION: 8.2. Class Architecture": [
+    "6",
+    "7",
+    "8.4",
+    "8.5"
+  ],
+  "SECTION: 8.3. Attributes": [
+    "8.4",
+    "8.5"
+  ],
+  "SECTION: 8.4. Methods": [
+    "8.5"
+  ],
+  "SECTION: 9. Report Program": [
+    "6",
+    "10"
+  ],
+  "SECTION: 9.1. Functional Requirement": [
+    "6"
+  ],
+  "SECTION: 9.2. Data Source": [
+    "7",
+    "8"
+  ],
+  "SECTION: 9.3. Technical Architecture (Key Logic)": [
+    "6",
+    "10"
+  ],
+  "SECTION: 9.4 Selection Screen": [
+    "6.5"
+  ],
+  "SECTION: 9.5 Processing Logic": [
+    "6.2",
+    "6.3"
+  ],
+  "SECTION: 9.6 ALV Output Columns": [
+    "6.6"
+  ],
+  "SECTION: 9.7 Include Programs": [
+    "10.3"
+  ]
+}

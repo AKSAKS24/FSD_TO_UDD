@@ -1,0 +1,169 @@
+#SECTION: 1. Purpose
+type: text
+description: State the purpose of the Unified Design Document.
+prompt: Write a concise, formal purpose describing why this UDD exists and what outcome the client should expect.
+
+#SECTION: 2. Scope
+type: text
+description: In/Out scope for the solution.
+prompt: Describe in-scope and out-of-scope items for the UDD, focusing on processes, objects, and users impacted.
+
+#SECTION: 3. Structure
+type: text
+description: Overview of the document's structural components.
+prompt: Provide a brief structural overview referencing main parts that follow (Table, Value Help, CDS, Function Module, Global Class, Report Program).
+
+#SECTION: 3.1. Functional Requirement
+type: text
+description: Functional needs to support the closure process.
+prompt: Summarize the functional requirements as plain text bullets suitable for client review.
+
+#SECTION: 3.2. Technical Architecture
+type: text
+description: Technical structure/objects to realize the functionality.
+prompt: Summarize the target technical architecture at a high level (objects, interactions, dependencies).
+
+#SECTION: 4. Table
+type: text
+description: Summary of table components in this solution.
+prompt: Provide a short introduction before detailed subsections.
+
+#SECTION: 4.1. Functional Requirement
+type: text
+description: Table-related functional need.
+prompt: Describe why the custom table is needed (audit, traceability, reporting).
+
+#SECTION: 4.2. Data Source
+type: text
+description: Data source for table.
+prompt: Identify the data sources that populate or reference this table (EKKO, EKPO, Z*).
+
+#SECTION: 4.3. Technical Architecture
+type: text
+description: Technical details of the custom table.
+prompt: Describe table definition highlights, keys, foreign keys, and technical settings.
+
+#SECTION: 5. Value Help
+type: text
+description: Value help requirements.
+prompt: Provide the value help concept and when it’s triggered.
+
+#SECTION: 5.1. Functional Requirements
+type: text
+description: Functional need for value help.
+prompt: Explain user scenarios requiring value help and expected behavior.
+
+#SECTION: 5.2. Data Source
+type: text
+description: Data source for value help.
+prompt: Point to the table/view fields backing the value help.
+
+#SECTION: 6. CDS
+type: text
+description: CDS purpose and positioning.
+prompt: Explain why CDS is needed and how it is consumed (ALV/fiori/other).
+
+#SECTION: 6.1. Functional Requirements
+type: text
+description: Functional aspects of CDS.
+prompt: State user-facing outcomes the CDS should enable.
+
+#SECTION: 6.2. Data Source
+type: text
+description: CDS data sources and associations.
+prompt: Describe underlying tables and key associations.
+
+#SECTION: 7. Function Module
+type: text
+description: Purpose of the function module in this solution.
+prompt: Describe when this FM is called and what it returns.
+
+#SECTION: 7.1. Functional Requirement
+type: text
+description: Functional need addressed by FM.
+prompt: Summarize business calculation or validation achieved by FM.
+
+#SECTION: 7.2. Data Source
+type: text
+description: Inputs/Outputs/Exceptions of FM.
+prompt: List parameters and exceptions in prose or a small list.
+
+#SECTION: 8. Global Class
+type: text
+description: Role of the global class.
+prompt: Provide an overview of responsibilities (fetch, validate, close, log, display).
+
+#SECTION: 8.1. Overview
+type: text
+description: High-level role.
+prompt: Summarize responsibilities and lifecycle.
+
+#SECTION: 8.2. Class Architecture
+type: text
+description: Structure and interfaces.
+prompt: Describe public visibility, optional interface, and inheritance.
+
+#SECTION: 8.3. Attributes
+type: text
+description: Data kept in memory.
+prompt: Describe the key internal attributes and their intent.
+
+#SECTION: 8.4. Methods
+type: text
+description: Method groups without listing names individually.
+prompt: Summarize method groups by purpose (initialization, fetch, validate, close, log, display, process, commit).
+
+#SECTION: 8.5. Example Class Usage in Report
+type: text
+description: How the report uses the class.
+prompt: Provide a short example narrative of instantiation and calls (no code required).
+
+#SECTION: 8.6. Exception Handling
+type: text
+description: Exceptions at class-level.
+prompt: Describe exception categories and handling approach.
+
+#SECTION: 8.7. Benefits of Class Design
+type: text
+description: Benefits in OO terms.
+prompt: List benefits such as encapsulation, reuse, maintainability, extensibility.
+
+#SECTION: 9. Report Program
+type: text
+description: Role of the report.
+prompt: Provide an overview of the report driver.
+
+#SECTION: 9.1. Functional Requirement
+type: text
+description: What the report must enable.
+prompt: State selection-driven closure and ALV interaction.
+
+#SECTION: 9.2. Data Source
+type: text
+description: Tables and BAPIs used.
+prompt: Mention EKKO/EKPO, ZPO_CLOSE_LOG, BAPI_PO_CHANGE, BAPI_TRANSACTION_COMMIT.
+
+#SECTION: 9.3. Technical Architecture (Key Logic)
+type: text
+description: Core processing steps.
+prompt: Summarize the processing blocks that follow (selection screen, processing, ALV, includes).
+
+#SECTION: 9.3.a Selection Screen
+type: text
+description: Selection screen details.
+prompt: Describe fields, defaults, simulate checkbox.
+
+#SECTION: 9.3.b Processing Logic
+type: text
+description: Runtime processing.
+prompt: Summarize fetch, compute open qty, validate, BAPI change, commit, log.
+
+#SECTION: 9.3.c ALV Output Columns
+type: text
+description: Output layout.
+prompt: Describe columns and behavior (select, status message).
+
+#SECTION: 9.3.d Include Programs
+type: text
+description: Includes used by the report.
+prompt: Mention TOP, SEL, F01, ALV purpose in one paragraph.
