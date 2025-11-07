@@ -1,6 +1,7 @@
 from typing import List, Tuple
 from langchain_openai import ChatOpenAI
-from langchain.schema import SystemMessage, HumanMessage
+from langchain_core.messages import SystemMessage, HumanMessage
+# from langchain.schema import SystemMessage, HumanMessage
 from .config import LLM_MODEL
 from .rag_loader import RagSection
 from .section_extractor import extract_relevant_fsd_slice
